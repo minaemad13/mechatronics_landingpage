@@ -1,0 +1,1929 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block main %}
+<!-- ========= Hero ======== -->
+<section class="container-fluid" id="hero" data-aos="fade-up" data-aos-duration="1000" style="height: 61rem;">
+  <div class="row">
+    <p class="hero-text">MECHATRONICS SERVICE CENTER BAHRIAN</p>
+
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mt-5">
+
+      <p class="hero2-text">INDUSTRIAL ELECTRONICS BOARDS, KITCHEN AND LAUNDRY EQUIPMENT REPAIRS, PROVIDING
+        ORIGINAL SPARE PARTS,
+        AND MAINTENANCE CONTRACTING.</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <!-- <a href="#contact_us" class="custom_btn" aria-current="page" >Contact Us</a>     -->
+
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <a href="#contactus" class="custom_btn" aria-current="page">Contact Us</a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<!-- ========= End Hero ======== -->
+
+<!-- ========= Spnsers ======== -->
+<section class="container-fluid" id="sponser">
+
+  <div class="carousel-field">
+    <div class="marquee-carousel">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/rational.png'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/sirman.png'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/vitamix.png'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/hobart.png'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/electrolu.png'%}" alt="Image 1"></div>
+        </div>
+        <!-- ********** -->
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/santos.jpg'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/blendteck.jpg'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/blodgett.jpg'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/meiko.jpg'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/henny penny.jpg'%}" alt="Image 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="content"> <img src="{% static '/images/amana.jpg'%}" alt="Image 1"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<script>
+  let marqueeCarousel = new Swiper(".marquee-carousel", {
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: false,
+    },
+    slidesPerView: 3,
+    speed: 6000,
+    resistance: true,
+    resistanceRatio: 0,
+    loop: true,
+    allowTouchMove: false,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
+<!-- ========= endSpnsers ======== -->
+
+<section class="container-fluid" id="misssion"
+  style="background: linear-gradient(179deg, #718CBD 0.61%, #1C3560 120.91%);box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); margin-top: 1%; ">
+
+  <div class="row">
+    <div class="col-9 mission" data-aos="fade-right">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 order-md-first order-lg-first order-sm-last order-xs-last">
+            <img src="{% static 'images/Mission.png'%}" class="img-fluid mission-image" style="flex-shrink: 0;">
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 order-md-last order-lg-last order-sm-first order-xs-first"
+            style="padding: 3% 5% 0% 5%;">
+            <div>
+              <p class="mission-title">Our Mission</p>
+              <br>
+              <p class="mission-text">Providing our clients with an exceptionally high standard of
+                kitchen
+                and laundry services, break down service calls, annual maintenance contract master
+                plans, and technical support that help them succeed.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-3">
+
+    </div>
+  </div>
+  <div class="row" style="display: flex;flex-direction: row-reverse;">
+    <div class="col-3"></div>
+    <div class="col-9 vision" data-aos="fade-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 order-md-last order-lg-last order-sm-first order-xs-first"
+            style="padding-left: 20%;">
+            <img src="{% static 'images/vision.png' %}" class="img-fluid " style="flex-shrink: 0;">
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 order-md-first order-lg-first order-sm-last order-xs-last"
+            style="padding: 3% 5% 0 5%;">
+            <div>
+              <p class="vision-title">Our Vision </p>
+              <br>
+              <p class="vision-text">To be a company that serve and fulfils your equipment needs and
+                wants.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ About Us ========= -->
+<section class="container-fluid" id="aboutus"
+  style="background: linear-gradient(180deg, #2C446D 0%, #718CBD 100%); box-shadow: -3px 10px 12.5px 0px rgba(0, 0, 0, 0.25); margin-top: 14%; ">
+
+  <div class="row">
+    <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 d-flex justify-content-center">
+      <img src="{% static '/images/aboutus.png'%}" class="img-fluid" alt="About US" style="">
+    </div>
+    <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 aboutus" data-aos="fade-left">
+
+      <div class="col-md-12" style="padding: 3% 5% 0 5%;">
+        <div>
+          <p class="about-title">About Us </p>
+          <div class="about-text">
+
+            The company offers innovative solutions to ensure its customers' operations run efficiently according to the
+            highest standards of hygiene and safety.
+            <br><br>
+            The scope of Mechatronics activities covers industrial electronics boards, repair of kitchen and laundry
+            equipment, provision of original spare parts, maintenance contracts and after-sales services under the
+            Equipment Care Program (ECP) which results in longer lasting equipment, greater operational efficiency and
+            safety.
+            <br><br>
+            With a professional team; Mechatronics is able to provide many tailored solutions for commercial kitchens,
+            laundries and ship kitchens, in diverse applications ranging from hotels, luxury hotels, restaurants, ships,
+            cruise ships, airlines, labor camps, military, healthcare institutions, laundromats, and commercial
+            laundromats.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<br><br><br>
+<!-- ============ endAbout Us ========= -->
+
+
+<!-- ============ services ========= -->
+<section class="container-fluid" id="services">
+  <div class="row">
+    <div class="col-12  d-flex justify-content-center">
+      <img src="{% static '/images/services.png'%}" class="img-fluid" alt="About US" style="position: absolute;">
+
+    </div>
+
+    <p class="services-title d-flex justify-content-center " style="margin-top: 4%;">Our services</p>
+    <br>
+    <div class="container">
+      <div class="container">
+
+        <p class="services-subtitle d-flex justify-content-center">Our Mechatronics Service Center in Bahrain is equipped with a team of skilled technicians who specialize in diagnosing, repairing, and maintaining coffee machines. We focus on minimizing downtime and ensuring your equipment runs smoothly. For maintenance services or support, please fill out the form below or contact us directly.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <br><br><br>
+    <div class="row" data-aos="fade-up">
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center">
+        <div class="card custome-style">
+          <img src="{% static '/images/kitchen service.png'%}" class="card-img-top" style="padding: 5%;
+                    border-radius: 8%;">
+          <div class="card-body ">
+            <h5 class="card-title cardtitle d-flex justify-content-center"> kitchen Equipment Services</h5>
+            <a href="#" class="readmore d-flex justify-content-center" data-bs-toggle="modal"
+              data-bs-target="#kitchen">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center">
+        <div class="card custome-style">
+          <img src="{% static '/images/Electronic_repair.png'%}" class="card-img-top" style="padding: 5%;
+                    border-radius: 8%;">
+          <div class="card-body ">
+            <h5 class="card-title cardtitle d-flex justify-content-center"> Electronic Repair Lab</h5>
+            <a href="#" class="readmore d-flex justify-content-center " data-bs-toggle="modal"
+              data-bs-target="#electronic">Learn More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center">
+        <div class="card custome-style">
+          <img src="{% static '/images/landury.png'%}" class="card-img-top" style="padding: 5%;
+                    border-radius: 8%;">
+          <div class="card-body ">
+            <h5 class="card-title cardtitle d-flex justify-content-center">Laundry Equipment Services</h5>
+            <a href="#" class="readmore d-flex justify-content-center" data-bs-toggle="modal"
+              data-bs-target="#Laundry">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 d-flex justify-content-center"></div>
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center">
+        <div class="card custome-style">
+          <img src="{% static '/images/SpareParts.png'%}" class="card-img-top" style="padding: 5%;
+                    border-radius: 8%;">
+          <div class="card-body ">
+            <h5 class="card-title cardtitle d-flex justify-content-center">Spare Parts</h5>
+            <a href="#" class="readmore d-flex justify-content-center" data-bs-toggle="modal"
+              data-bs-target="#spareparts">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center">
+        <div class="card custome-style">
+          <img src="{% static '/images/CoffeMAchine.png'%}" class="card-img-top" style="padding: 5%;
+                    border-radius: 8%;">
+          <div class="card-body ">
+            <h5 class="card-title cardtitle d-flex justify-content-center">Coffee machines services</h5>
+            <a href="#" class="readmore d-flex justify-content-center" data-bs-toggle="modal"
+              data-bs-target="#coffee">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Kitchen Model -->
+<div class="modal fade" id="kitchen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-body" style="overflow: hidden;">
+        <div class="modeltitle">
+          <p style="color: #000;
+
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;">
+
+            kitchen Equipment Services
+          </p>
+        </div>
+        <div class="d-flex justify-content-center " style="text-align: center;
+          padding: 2%;
+          color: gray;">
+
+          <p>We specialize in the maintenance and enhancement of these devices, offering original spare parts to ensure
+            optimal performance and longevity.</p>
+        </div>
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Cooking Equipment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Large Refrigerators</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Washing Equipment</a>
+                </li>
+
+
+
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+                <div class="tab-pane" id="tab-1">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Washing Equipment</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Hood-Type Washers</li>
+                            <li>Rack-Type Conveyor Washers</li>
+                            <li>Flight-Type Conveyor Washers</li>
+                            <li>Under-Counter Washers</li>
+                            <li>Glass Washers</li>
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Utensil Washers</li>
+                            <li>Pot & Pan Washers</li>
+                            <li>Tray Washers</li>
+                            <li>Trolley Washers</li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder">
+                            <img src="{% static 'images/Trolley Washers.png'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Trolley Washers.png'%}" alt='' onclick="changeImage(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Tray Washers.jpg'%}" alt='' onclick="changeImage(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Utensil Washers.png'%}" alt='' onclick="changeImage(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Under-Counter-Washers.png'%}" alt=''
+                                onclick="changeImage(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Flight-Washers.png'%}" alt='' onclick="changeImage(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/Conveyor-Washers.png'%}" alt='' onclick="changeImage(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail">
+                              <img src="{% static 'images/hood-washer.png'%}" alt='' onclick="changeImage(this);"
+                                class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane  active show" id="tab-2">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Cooking Equipment</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Open Burner & Solid Top</li>
+                            <li>Radiant Hob</li>
+                            <li>Induction Hob</li>
+                            <li>Chargrill</li>
+                            <li>Bain-Marie</li>
+                            <li>Pasta Cooker</li>
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Neutral Top</li>
+                            <li>Deep Fryer</li>
+                            <li>Microwaves</li>
+                            <li>Toasters</li>
+                            <li>Panini Grills</li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder2">
+                            <img src="{% static 'images/Toasters.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail2 image-thumbnail ">
+                              <img src="{% static 'images/Toasters.jpeg'%}" alt='' onclick="changeImage2(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/Microwaves.jpeg'%}" alt='' onclick="changeImage2(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/Convection-Combi Ovens.jpeg'%}" alt=''
+                                onclick="changeImage2(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/Deep Fryer.jpg'%}" alt='' onclick="changeImage2(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/Fries Storage.webp'%}" alt='' onclick="changeImage2(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/neutral.png'%}" alt='' onclick="changeImage2(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail2 image-thumbnail">
+                              <img src="{% static 'images/Pasta Cooker.png'%}" alt='' onclick="changeImage2(this);"
+                                class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-3">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Large Refrigerators</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Reach-In Refrigerators</li>
+                            <li>Heavy Duty Cabinets</li>
+                            <li>Under-counter Refrigerators and Freezers</li>
+                            <li>Worktop Refrigeration / Freezers</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Sandwich, Pizza Refrigerated </li>
+                            <li>Ice Makers & Flakers</li>
+                            <li>Walk-in Chillers, Freezers</li>
+                            <li>Bar Refrigerators</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder3">
+                            <img src="{% static 'images/Reach-In Refrigerators.jpg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail3 image-thumbnail ">
+                              <img src="{% static 'images/Reach-In Refrigerators.jpg'%}" alt=''
+                                onclick="changeImage3(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail3 image-thumbnail">
+                              <img src="{% static 'images/Worktop Refrigeration -Freezers.jpg'%}" alt=''
+                                onclick="changeImage3(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail3 image-thumbnail">
+                              <img src="{% static 'images/Sandwich -Pizza Refrigerated Tables.jpg'%}" alt=''
+                                onclick="changeImage3(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail3 image-thumbnail">
+                              <img src="{% static 'images/Ice Makers & Flakers.jpg'%}" alt=''
+                                onclick="changeImage3(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail3 image-thumbnail">
+                              <img src="{% static 'images/Bar Refrigerators.webp'%}" alt=''
+                                onclick="changeImage3(this);" class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<script>
+  let changeImage = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder > img').src = imgSrc;
+    document.querySelector('.image-thumbnail > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage2 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder2 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage3 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder3 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail3 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage4 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder > img').src = imgSrc;
+    document.querySelector('.image-thumbnail > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+</script>
+
+
+<!-- Laundry Model -->
+<div class="modal fade" id="Laundry" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-body" style="overflow: hidden;">
+        <div class="modeltitle">
+          <p style="color: #000;
+  
+              text-align: center;
+              font-family: Montserrat;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;">
+
+            Laundry Equipment Services
+          </p>
+        </div>
+        <div class="d-flex justify-content-center " style="text-align: center;
+            padding: 2%;
+            color: gray;">
+
+          <p>We specialize in the maintenance and enhancement of these devices, offering original spare parts to ensure
+            optimal performance and longevity.</p>
+        </div>
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active " data-bs-toggle="tab" href="#tab-5">Finishing Equipment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-4">Dry Cleaning</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-6">Barrier Washers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-33">Ironers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-22">Dryers</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-11">Hydro Extractors</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-44">Laundry Conveyors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-55">Folders</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+                <div class="tab-pane" id="tab-6">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Barrier Washers</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Open Pocket Washer Extractors</li>
+                            <li>Top Side Loader Washer Extractors</li>
+                            <li>Barrier Top-Side Loader Washer Extractors</li>
+                            <li>Barrier Side Loader Washer Extractors</li>
+                          </ul>
+                        </div>
+                        <div class="col-5">
+                          <ul>
+                            <li>Barrier Washers</li>
+                            <li>End Loader Washer Extractors</li>
+                            <li>Batch tunnel Washer</li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder5">
+                            <img src="{% static 'images/Batch tunnel Washer.jpg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail image-thumbnail5">
+                              <img src="{% static 'images/Batch tunnel Washer.jpg'%}" alt=''
+                                onclick="changeImage5(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail image-thumbnail5">
+                              <img src="{% static 'images/End Loader Washer Extractors.jpeg'%}" alt=''
+                                onclick="changeImage5(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail image-thumbnail5">
+                              <img src="{% static 'images/Barrier Washers.png'%}" alt='' onclick="changeImage5(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail image-thumbnail5">
+                              <img src="{% static 'images/Top Side Loader Washer Extractors.jpeg'%}" alt=''
+                                onclick="changeImage5(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail image-thumbnail5">
+                              <img src="{% static 'images/Open Pocket Washer Extractors.jpeg'%}" alt=''
+                                onclick="changeImage5(this);" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane  active show" id="tab-5">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Finishing Equipment</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Shirt Finishing systems</li>
+                            <li>Steam – Air Shirt Finishers</li>
+                            <li>Shirt Folders</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Collar Formers</li>
+                            <li>Laundry Utility Presses</li>
+                            <li>Toppers</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder6">
+                            <img src="{% static 'images/Laundry Utility Presses.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail6 image-thumbnail ">
+                              <img src="{% static 'images/Laundry Utility Presses.jpeg'%}" alt=''
+                                onclick="changeImage6(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail6 image-thumbnail">
+                              <img src="{% static 'images/Collar Formers.jpeg'%}" alt='' onclick="changeImage6(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail6 image-thumbnail">
+                              <img src="{% static 'images/Shirt Folders.jpeg'%}" alt='' onclick="changeImage6(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail6 image-thumbnail">
+                              <img src="{% static 'images/Steam – Air Shirt Finishers.png'%}" alt=''
+                                onclick="changeImage6(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail6 image-thumbnail">
+                              <img src="{% static 'images/Shirt Finishing systems.jpeg'%}" alt=''
+                                onclick="changeImage6(this);" class="img-fluid">
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-4">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Dry Cleaning</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Fastback Presses</li>
+                            <li>Scissor Legger & Utility Presses</li>
+                            <li>Toppers</li>
+
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Form Finishers</li>
+                            <li>Puff Irons</li>
+                            <li>Hand Irons</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder7">
+                            <img src="{% static 'images/Puff Irons.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail7 image-thumbnail ">
+                              <img src="{% static 'images/Puff Irons.jpeg'%}" alt='' onclick="changeImage7(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail7 image-thumbnail">
+                              <img src="{% static 'images/Form Finishers.jpg'%}" alt='' onclick="changeImage7(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail7 image-thumbnail">
+                              <img src="{% static 'images/Scissor Legger & Utility Presses.jpeg'%}" alt=''
+                                onclick="changeImage7(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail7 image-thumbnail">
+                              <img src="{% static 'images/Fastback Presses.png'%}" alt='' onclick="changeImage7(this);"
+                                class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-33">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Ironers</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Feeders</li>
+                            <li>Flat-work Ironers</li>
+
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Flat-work folding Equipment </li>
+                            <li>Stackers</li>
+
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder8">
+                            <img src="{% static 'images/Stackers.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail8 image-thumbnail ">
+                              <img src="{% static 'images/Stackers.jpeg'%}" alt='' onclick="changeImage8(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail8 image-thumbnail">
+                              <img src="{% static 'images/Flat-work folding Equipment.jpeg'%}" alt=''
+                                onclick="changeImage8(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail8 image-thumbnail">
+                              <img src="{% static 'images/Flat-work Ironers.jpg'%}" alt='' onclick="changeImage8(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail8 image-thumbnail">
+                              <img src="{% static 'images/Feeders.jpeg'%}" alt='' onclick="changeImage8(this);"
+                                class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-22">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Dryers</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Small Dryers</li>
+                            <li>Medium Dryers</li>
+                            <li>High Dryers</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Pass Through Dryers</li>
+                            <li>Batch Dryers</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder9">
+                            <img src="{% static 'images/Pass Through Dryers.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail9 image-thumbnail ">
+                              <img src="{% static 'images/Pass Through Dryers.jpeg'%}" alt=''
+                                onclick="changeImage9(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail9 image-thumbnail">
+                              <img src="{% static 'images/Batch Dryers.jpeg'%}" alt='' onclick="changeImage9(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail9 image-thumbnail">
+                              <img src="{% static 'images/High Capacity Dryers.webp'%}" alt=''
+                                onclick="changeImage9(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail9 image-thumbnail">
+                              <img src="{% static 'images/medum Capacity Dryers.jpg'%}" alt=''
+                                onclick="changeImage9(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail9 image-thumbnail">
+                              <img src="{% static 'images/Small Capacity Dryers.jpg'%}" alt=''
+                                onclick="changeImage9(this);" class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-11">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Hydro Extractors</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Hydro Extractors</li>
+                          </ul>
+                        </div>
+
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder10">
+                            <img src="{% static 'images/Hydro Extractors.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail10 image-thumbnail ">
+                              <img src="{% static 'images/Hydro Extractors.jpeg'%}" alt=''
+                                onclick="changeImage10(this);" class="active" class="img-fluid">
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-44">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Laundry Conveyors</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li>Stor-U-Veyor</li>
+                            <li>Up,Down Conveyor</li>
+                            <li>Double Deck Up,Down</li>
+                            <li>Consec-U-Veyor</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+                          <ul>
+                            <li>V-Dip Conveyor</li>
+                            <li>Double Deck Conveyor</li>
+                            <li>Short & Longs Combined</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder11">
+                            <img src="{% static 'images/Short & Longs Combined.jpeg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail11 image-thumbnail ">
+                              <img src="{% static 'images/Short & Longs Combined.jpeg'%}" alt=''
+                                onclick="changeImage11(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail11 image-thumbnail">
+                              <img src="{% static 'images/Double Deck Conveyor.jpeg'%}" alt=''
+                                onclick="changeImage11(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail11 image-thumbnail">
+                              <img src="{% static 'images/V-Dip Conveyor.png'%}" alt='' onclick="changeImage11(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail11 image-thumbnail">
+                              <img src="{% static 'images/Up’N’Down Conveyor.png'%}" alt=''
+                                onclick="changeImage11(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail11 image-thumbnail">
+                              <img src="{% static 'images/Stor-U-Veyor.jpeg'%}" alt='' onclick="changeImage11(this);"
+                                class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-55">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Folders</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+
+                          <ul>
+                            <li>Shaped Item Folding</li>
+                            <li>Small Piece Folders</li>
+
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+                          <ul>
+                            <li>Towel Folders</li>
+                            <li>Blanket Folders</li>
+
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder12">
+                            <img src="{% static 'images/Shaped Item Folding.jpg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail12 image-thumbnail ">
+                              <img src="{% static 'images/Shaped Item Folding.jpg'%}" alt=''
+                                onclick="changeImage12(this);" class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail12 image-thumbnail">
+                              <img src="{% static 'images/Small Piece Folders.jpeg'%}" alt=''
+                                onclick="changeImage12(this);" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail12 image-thumbnail">
+                              <img src="{% static 'images/Blanket Folders.jpeg'%}" alt='' onclick="changeImage12(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail12 image-thumbnail">
+                              <img src="{% static 'images/Towel Folders.jpeg'%}" alt='' onclick="changeImage12(this);"
+                                class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<script>
+  let changeImage5 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder5 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail5 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage6 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder6 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail6 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage7 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder7 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail7 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage8 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder8 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail8 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage9 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder9 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail9 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage10 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder10 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail10 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage11 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder11 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail11 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage12 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder12 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail12 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+</script>
+
+<!-- electronic Model -->
+<div class="modal fade" id="electronic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-body" style="overflow: hidden;">
+        <div class="modeltitle">
+          <p style="color: #000;
+
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;">
+
+            Electronic Repair Lab
+          </p>
+        </div>
+        <div class="d-flex justify-content-center " style="text-align: center;
+          padding: 2%;
+          color: gray;">
+
+          <p>We specialize in the maintenance and enhancement of these devices, offering original spare parts to ensure
+            optimal performance and longevity.</p>
+        </div>
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <ul class="nav flex-column">
+
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-66">Electronics</a>
+                </li>
+
+
+
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+
+                <div class="tab-pane  active show" id="tab-66">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Electronics</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li> Inverters (VFD)</li>
+                            <li>PCB boards</li>
+                            <li>UPS</li>
+                            <li>Control Panels</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>Golf carts</li>
+                            <li>Electrical Generators</li>
+                            <li>Barrier Gate</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder13" >
+                            <img src="{% static 'images/e1.png'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail13 image-thumbnail ">
+                              <img src="{% static 'images/e1.png'%}" alt='' onclick="changeImage13(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail13 image-thumbnail">
+                              <img src="{% static 'images/e2.png'%}" alt='' onclick="changeImage13(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail13 image-thumbnail">
+                              <img src="{% static 'images/e3.png'%}" alt='' onclick="changeImage13(this);"
+                                class="img-fluid">
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<script>
+  let changeImage13 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder13 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail13 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+  let changeImage14 = (e) => {
+
+    let imgSrc = e.src;
+    imgSrc = imgSrc.replace(/400/g, '800');
+    document.querySelector('.image-holder14 > img').src = imgSrc;
+    document.querySelector('.image-thumbnail14 > img.active').classList.toggle('active');
+    e.classList.toggle('active');
+
+  };
+</script>
+
+<div class="modal fade" id="spareparts" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-body" style="overflow: hidden;">
+        <div class="modeltitle">
+          <p style="color: #000;
+
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;">
+
+           Spare Parts
+          </p>
+        </div>
+        <div class="d-flex justify-content-center " style="text-align: center;
+          padding: 2%;
+          color: gray;">
+         <p>Sourcing genuine spare parts for complex foodservice and laundry equipment has become challenging. At Mechatronics, our expertise and supplier network ensure customers receive the correct, original components.</p> 
+        </div>
+       
+        
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <ul class="nav flex-column">
+
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-77">Spare Parts</a>
+                </li>
+
+
+
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+
+                <div class="tab-pane  active show" id="#tab-77">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Spare Parts</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-7">
+
+                          <ul>
+                            <li> MEIKO</li>
+                            <li>HENNY PENNY</li>
+                            <li>BRAUN</li>
+                            <li>HOBART</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-5">
+
+                          <ul>
+                            <li>AMANA</li>
+                            <li>SCOTSMAN</li>
+                            <li>CARPIGIANI</li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder14" style="    margin-bottom: 5%;">
+                            <img src="{% static 'images/spare1.jpg'%}" class="img-fluid">
+                          </div>
+
+                          <div class="photo-gallery__wrapper">
+                            <div class="image-thumbnail14 image-thumbnail ">
+                              <img src="{% static 'images/spare1.jpg'%}" alt='' onclick="changeImage14(this);"
+                                class="active" class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail14 image-thumbnail">
+                              <img src="{% static 'images/spare2.jpeg'%}" alt='' onclick="changeImage14(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail14 image-thumbnail">
+                              <img src="{% static 'images/SPARE3.jpeg'%}" alt='' onclick="changeImage14(this);"
+                                class="img-fluid">
+                            </div>
+                            <div class="image-thumbnail14 image-thumbnail">
+                              <img src="{% static 'images/SPARE4.jpeg'%}" alt='' onclick="changeImage14(this);"
+                                class="img-fluid">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="coffee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-body" style="overflow: hidden;">
+        <div class="modeltitle">
+          <p style="color: #000;
+
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;">
+
+            Coffee Machines Services
+          </p>
+        </div>
+        <div class="d-flex justify-content-center " style="text-align: center;
+          padding: 2%;
+          color: gray;">
+<!-- 
+          <p>We specialize in the maintenance and enhancement of these devices, offering original spare parts to ensure
+            optimal performance and longevity.</p> -->
+        </div>
+        
+
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#tab-88">Comprehensive Maintenance</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-99">Spare Parts Replacement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-100">Periodic Maintenance Options</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " data-bs-toggle="tab" href="#tab-101">Uninterrupted Service</a>
+                </li>
+              
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+                <div class="tab-pane  active show" id="tab-88">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Comprehensive Maintenance</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-12">
+
+                          <p>Our expert technicians are prepared to tackle any issue, whether it's a routine check or an unexpected breakdown. We handle everything from minor repairs to major overhauls, keeping your machines in top condition</p>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder14" >
+                            <img src="{% static 'images/Coffe3.jpeg'%}" class="img-fluid" style="width: 100%;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-99">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Spare Parts Replacement</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-12">
+
+                          <p>Need to replace damaged or worn-out parts? We've got you covered! Our team supplies and installs top-quality spare parts, ensuring your machines are quickly restored to peak performance.</p>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder14" >
+                            <img src="{% static 'images/spare2.jpeg'%}" class="img-fluid" style="width: 100%;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-100">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Periodic Maintenance Options</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-12">
+
+                          <p>Keep your equipment running smoothly with our tailored periodic maintenance services. Choose from our flexible monthly or quarterly plans, designed to prevent issues before they occur. With us, you can always be confident that your machines are ready to brew the perfect cup.</p>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder14" >
+                            <img src="{% static 'images/spare1.jpg'%}" class="img-fluid" style="width: 100%;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="tab-101">
+                  <div class="row gy-4">
+                    <div class="col-12 details ">
+                      <h3>Uninterrupted Service</h3>
+                      <p class="fst-italic">
+                      <div class="row">
+
+                        <div class="col-12">
+
+                          <p>Ensure a seamless experience for you and your customers with our regular maintenance and rapid repair services. Keep your coffee machines running smoothly, so you can focus on what matters most—serving the perfect cup every time.</p>
+                        </div>
+
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center ">
+                      <div class="container-fluid">
+                        <div class="wrapper">
+                          <div class="image-holder image-holder14" >
+                            <img src="{% static 'images/CoffeMAchine.png'%}" class="img-fluid" style="width: 100%;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<!-- ============ endservices ========= -->
+
+<!-- ============ why we exisrs ========= -->
+
+
+<section class="container-fluid" style="background: #EBEFF2; margin-top:6%">
+  <div class="container" style="    padding: 3% 3% 1% 3%;">
+    <p class="whytitle">Why we exist !?</p>
+    <br>
+    <div class="row">
+
+      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <p class="whyp">
+          Most of our clients come to us after working with another consultant or after not getting the results they
+          expected. Whatever your circumstances, we will likely be able to help you achieve your goals and provide a
+          clear analysis of the cost/time saving benefits before you commit.
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <p class="whyp">
+          This is the cornerstone of everything we do. We care about your specific needs, and the results you can use
+          and measure immediately. Our clients trust us to solve difficult problems in a safe and confidential manner
+          from our first contact with them. Trust is the number one trait our clients recognize when we discuss
+          solutions rather than problems.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ end why we exisrs ========= -->
+<br><br><br>
+<!-- ============ contactus ========= -->
+<section class="container-fluid" id="contactus">
+
+  <div class="container">
+    <p class="whytitle">Contact Us</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <div class="contact-wrap w-100 p-md-5 p-4">
+            <h3 class="mb-4">Get In Touch</h3>
+            {% if success %}
+            <div id="form-message-success" class="mb-4">
+              Your message was sent, thank you!
+            </div>
+            {% elif error %}
+            <div id="form-message-warning" class="mb-4">An Error Eccured, Please Try Again</div>
+            {% else %}
+
+            {% endif %}
+            <form method="POST" class="contactForm">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="label" for="name">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="label" for="email">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="label" for="subject">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="label" for="#">Message</label>
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"
+                      required></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group" style="margin-top: 3%;">
+
+                    <input type="submit" value="Send Message" class="btn btn-primary" style="    background: #1C3560;">
+                    <div class="submitting"></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" style="margin-top: 5%;">
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=300&amp;hl=en&amp;q=Mechatronics Service Center SHOP 36A , ROAD 12 BLOCK 1014،، Rd 12, الهملة،, Bahrain&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://embed-googlemap.com">embed-googlemap.com</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 300px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 300px;
+              }
+
+              .gmap_iframe {
+                height: 300px !important;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="dbox w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-map-marker"></span>
+            </div>
+            <div class="text">
+              <p><span>Address:</span> 36A, Road: 12, Block: 1014, Hamala, Kingdom of Bahrian</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="dbox w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-phone"></span>
+            </div>
+            <div class="text">
+              <p><span>Phone:</span> <a href="tel://+97335531773">+973 3553 1773</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="dbox w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-paper-plane"></span>
+            </div>
+            <div class="text">
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-3">
+          <div class="dbox w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-globe"></span>
+            </div>
+            <div class="text">
+              <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ endcontactus ========= -->
+
+
+<footer class="container-fluid" style="background: #EBEFF2; margin-top:4%">
+  <div class="container" style="padding: 2% 0% 2% 0%;">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" style="    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;">
+        <img src="{% static 'images/Logo.png' %}" class="img-fluid">
+        <br>
+        <p style="color: #000;
+
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 184.615% */">
+          INDUSTRIAL ELECTRONICS BOARDS, KITCHEN AND LAUNDRY EQUIPMENT REPAIRS, PROVIDING ORIGINAL SPARE PARTS, AND
+          MAINTENANCE CONTRACTING.
+        </p>
+      </div>
+      <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12" style="    display: flex;
+      flex-direction: column;
+      align-items: center;">
+        <div>
+          <div class="row">
+            <div class="col-6" style="">
+              <div class="row">
+                <div class="col-3">
+                  <img src="{% static 'images/meassage.png' %}" class="img-fluid">
+                </div>
+                <div class="col-9">
+                  <p>+973 3553 1773 ramykhalla@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-6" style="display: flex;">
+              <div class="row">
+                <div class="col-3">
+                  <img src="{% static 'images/map.png' %}" class="img-fluid">
+                </div>
+                <div class="col-9">
+                  <p>Office: 36A, Road: 12, Block: <br>1014, Hamala, Kingdom of Bahrian</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-6" style="    display: flex;
+          justify-content: center;">
+              <ul class="navbar-nav  navbar-nav-scroll ">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#misssion">Our Mission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#misssion">Our Vision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6" style="    display: flex;
+          justify-content: center;">
+              <ul class="navbar-nav   navbar-nav-scroll ">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contactus">Contact Us</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+{% endblock %}

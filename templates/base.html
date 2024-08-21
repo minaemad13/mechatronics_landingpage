@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert maintenance and repair services for hotels and restaurants. We handle Cooking Equipment, Refrigerators, Laundry Machines, and provide original spare parts.">
+    <meta name="keywords" content="hotel equipment maintenance, restaurant machine repair, original spare parts, cooking equipment, laundry machines Cooking ,Large Refrigerators,Refrigerators,Washing Equipment ,Washing,Electronics,Finishing Equipment,Finishing, Dry Cleaning ,Barrier Washers ,Ironers ,Dryers ,Hydro Extractors ,Laundry Conveyors ,Laundry ,Folders ,coffe machines ,coffe ">
+    <link rel="canonical" href="https://www.yourwebsite.com/">
+    <title>MECHATRONICS</title>
+
+    <!-- Favicons -->
+    {% block Heroblock %}
+    <link href="{% static 'images/Logo.png' %}" rel="icon">
+    {% endblock %}
+    <link href="{% static 'images/Logo.png' %}" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="{% static 'aos/dist/aos.css' %}" rel="stylesheet">
+
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'CSS/style.css' %}" rel="stylesheet">
+   
+    <link href="{% static 'CSS/swiper.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <script src="{% static 'Js/swiper.js' %}"></script>
+    <script src="{% static 'aos/dist/aos.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script>
+        AOS.init();
+    </script>
+    <div >
+        {% block navbar %}
+        <nav class="navbar navbar-expand-lg " style="padding: 0;  background-image: url('/static/images/nv_bg.png');
+        background-size: cover;
+        background-position: center;">
+            <div class="container">
+                <a class="navbar-brand" href=""><img src="{% static 'images/Logo.png' %}" style="width: 70%;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="   " data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav  my-lg-0 navbar-nav-scroll mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-li-a" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-li-a" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-li-a" href="#services">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-li-a" href="#contactus">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav  my-lg-0 navbar-nav-scroll  " style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #1C3560;
+                            font-size: 170%;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.google.com/maps?ll=26.144516,50.487001&z=19&t=m&hl=en&gl=US&mapclient=embed&cid=4817880237627560828"><i class="fa fa-globe" aria-hidden="true" style="color: #1C3560;
+                            font-size: 170%;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="tel://+97335531773" ><i class="fa fa-phone-square" aria-hidden="true" style="color: #1C3560;
+                            font-size: 170%;"></i></a>
+                    </li>
+                   
+                </ul>
+
+                </div>
+            </div>
+        </nav>
+        {% endblock %}
+
+        {% block main %}
+
+        {% endblock %}
+    </div>
+
+
+    {% block footer %}
+
+    {% endblock %}
+
+
+
+</body>
+
+</html>
