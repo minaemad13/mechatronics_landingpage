@@ -1,0 +1,483 @@
+.nav-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #1C3560;
+    ;
+
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: #1C3560;
+    background-color: #1C3560;
+    /* You can change the color to match your design */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #1C3560;
+
+
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+    color: #1C3560;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.collapse {
+    padding-bottom: 0.5%;
+    /* border-bottom: 1px solid black; */
+
+}
+
+.nav-li-a {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 90%;
+    }
+}
+
+
+
+#hero {
+    background-image: url('/static/images/hero_bg1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    color: #FFF;
+    background-color: #1C3560;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.hero2-text {
+    color: #1C3560;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 163.809%;
+    text-transform: uppercase;
+}
+
+.hero3-text {
+    font-family: Montserrat;
+    /* margin-left: 9%; */
+    color: #1C3560;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero4-text {
+    /* margin-left: 9%; */
+    color: #1C3560;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom_btn {
+    border-radius: 61px;
+    /* border: 1px solid #000; */
+    background: #718CBD;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+.custom_btn:hover {
+    background: linear-gradient(96deg, #C3CFDA -2.27%, #FFF 102.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #1C3560;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    transform: scale(1.1);
+}
+
+
+
+.carousel-field {
+    overflow: hidden;
+    margin-top: 1.5%;
+}
+
+.carousel-field .marquee-carousel .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+
+.carousel-field .marquee-carousel .swiper-wrapper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-field .marquee-carousel .swiper-wrapper .swiper-slide .content {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-field .marquee-carousel .swiper-wrapper .swiper-slide .content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.mission {
+    border-radius: 0px 30px 30px 0px;
+    width: 80%;
+    background: linear-gradient(180deg, #C3CFDA 0%, #FFF 100%);
+    box-shadow: 13px 2px 10.7px 0px rgba(0, 0, 0, 0.25);
+    /* margin: 6% 0% 3% -0.6%; */
+    /* margin: 6% 0% 3% 0%; */
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.mission-image {
+    margin-top: -4%;
+}
+
+.mission-title {
+    color: #1C3560;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mission-text {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159%;
+}
+
+.vision {
+    border-radius: 30px 0px 0px 30px;
+    width: 79.89%;
+    background: linear-gradient(180deg, #C3CFDA 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* margin: 3% 0% 0% 20.8%; */
+    /* margin: 3% 0% -6% 20.8%; */
+    margin-bottom: -6%;
+}
+
+.vision-image {
+    margin-top: -4%;
+
+    /* width: 24%;
+    position: absolute; */
+
+}
+
+.vision-title {
+    color: #1C3560;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vision-text {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159%;
+}
+
+.aboutus {
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(180deg, #C3CFDA 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 3%;
+    margin-top: -5%;
+}
+
+/* Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .aboutus {
+        border-radius: 30px 0px 0px 30px;
+        background: linear-gradient(180deg, #C3CFDA 0%, #FFF 100%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+}
+
+
+
+.about-title {
+    color: #1C3560;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.086%;
+}
+
+.services-title {
+    color: #1C3560;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.services-subtitle {
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.readmore {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.cardtitle {
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.custome-style {
+    border-radius: 8px;
+    /* border: 1px solid rgba(0, 0, 0, 0.30); */
+    margin: 2%;
+    background: #EBEFF2;
+
+}
+
+.custome-style:hover {
+    border-radius: 8px;
+    /* border: 1px solid rgba(0, 0, 0, 0.30); */
+    margin: 2%;
+
+    background: linear-gradient(360deg, #1C3560 0%, #EBEFF2 100%);
+
+    .cardtitle {
+        color: white
+    }
+
+    .readmore {
+        color: white;
+    }
+}
+
+.card {
+    border: 0;
+}
+
+.modeltitle {
+    border-radius: 0px 18px 18px 0px;
+    background: #CFD7DD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: -2.5%;
+    width: 90%;
+}
+
+
+.photo-gallery__wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-gallery__wrapper div {
+    height: 80px;
+    overflow: hidden;
+}
+
+.image-holder {
+
+    overflow: hidden;
+    margin: 0 auto;
+    /*  */
+}
+
+.image-holder img {
+
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 50%;
+    width: 50%;
+}
+
+.image-thumbnail img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.35s;
+    transform: scale(1);
+    filter: grayscale(1);
+}
+
+.image-thumbnail img.active {
+    filter: none;
+}
+
+.image-thumbnail img:hover {
+    transition: transform 0.35s, filter 0.35s linear;
+    transform: scale(1.12);
+    filter: none;
+}
+
+.whytitle {
+    color: #1C3560;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.whyp {
+    color: #000;
+
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%;
+    /* 37px */
+}
+
+#form-message-success {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#form-message-warning {
+    color: #c11411;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #1C3560;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.dbox .icon span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.dbox .text {
+    width: 100%;
+}
+
+.icon:hover{
+  
+    background: #EBEFF2;
+}
+
+.icon:hover span {
+    color: #1C3560;
+}
